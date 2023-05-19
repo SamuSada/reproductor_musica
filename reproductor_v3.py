@@ -59,7 +59,6 @@ abrir = Menu(menu, tearoff=0)
 abrir.add_command(label="Importar...", command=seleccionar_dir)
 menu.add_cascade(label="Archivo", menu=abrir)
 
-
 # LISTBOX
 listbox1 = Listbox(root, width=40, border=10, background='#999999')
 listbox1.pack(padx=20, pady=40)
